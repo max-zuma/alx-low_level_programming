@@ -8,6 +8,7 @@ int main(void)
 	int n;
 
 	for (n = 48; n < 58; n++)
+	{
 
 		putchair(n);
 
@@ -16,6 +17,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
+	}
 
 		putchar('\n');
 
