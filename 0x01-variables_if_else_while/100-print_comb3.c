@@ -19,7 +19,7 @@ int main(void)
 			{
 				putchar(tens);
 				putchar(ones);
-				if (!(ones == '0' && tens == '9'))/*adds commas and spaces*/
+				if (tens != '9' || ones != '8')/*adds commas and spaces*/
 				{
 					putchar(',');
 					putchar(' ');
