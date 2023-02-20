@@ -11,6 +11,10 @@ int main(void)
 	{
 
 		putchair(n);
+		if (n ==57)
+		{
+			continue;
+		}
 		putchar(',');
 		putchar(' ');
 	}
